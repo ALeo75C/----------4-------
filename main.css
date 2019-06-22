@@ -7,6 +7,7 @@ header p {
   width: 845px;
   padding-top: 50px;
 }
+
 .h {
   position: relative;
 
@@ -29,9 +30,17 @@ h2 {
   font-weight: 700;
 }
 
+main {
+  display: grid;
+
+  width: 80vw;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 80px;
+}
 article {
-  width: 45vw;
-  margin: 50px auto 0;
+  /* width: 45vw; */
+  margin: 80px auto 0;
   /* padding: 30px; */
   /* background: #fff; */
 
@@ -78,20 +87,14 @@ p {
   line-height: 25px;
 }
 .content {
-  margin-top: -110px;
   padding: 10px 30px 20px;
 
   transition: all 0.5s ease;
-
-  background-color: rgba(255, 255, 255, 0.5);
-}
-article:hover .content {
-  margin-top: 0;
-
-  background-color: rgba(255, 255, 255, 1);
 }
 article {
   position: relative;
+
+  background: rgb(255, 255, 255);
 }
 .divs2 {
   position: absolute;
@@ -127,39 +130,54 @@ article {
 }
 
 .me {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.me .photo {
   background-image: url('materials/theater.jpg');
 }
+
 .b18 {
+  grid-column-start: 3;
+}
+.b18 .photo {
   background-image: url('materials/grupp.png');
   background-position-x: center;
   background-position-y: -76px;
   background-size: calc(100% + 80px);
 }
-.shop {
+.shop .photo {
   background-image: url('materials/prez.jpg');
 }
-.project {
+.project .photo {
   background-image: url('materials/bot.jpg');
   background-position: center;
 }
-.diary {
+.diary .photo {
   background-image: url('materials/dy.png');
   background-position: center;
   background-size: cover;
 }
 .posters {
+  grid-column: 1;
+}
+.posters .photo {
   background-image: url('materials/poster1.jpg');
 }
 .web {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.web .photo {
   background-image: url('materials/web.jpg');
 }
-.modeling {
+.modeling .photo {
   background-image: url('materials/3d.jpg');
 }
-.book {
+.book .photo {
   background-image: url('materials/book.jpg');
 }
-.webA {
+.webA .photo {
   background-image: url('materials/webA2.png');
   background-position: center;
 }
