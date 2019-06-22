@@ -1,0 +1,165 @@
+header {
+  width: 100vw;
+  height: 75vh;
+  margin-left: 13vw;
+}
+header p {
+  width: 845px;
+  padding-top: 50px;
+}
+.h {
+  position: relative;
+
+  padding-top: 170px;
+}
+.h h2 {
+  position: absolute;
+  top: 150px;
+  left: 9px;
+
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 147px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+article {
+  width: 45vw;
+  margin: 50px auto 0;
+  /* padding: 30px; */
+  /* background: #fff; */
+
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+h2 {
+  /* margin-bottom: 20px; */
+  font-size: 26px;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+
+  color: rgb(0, 0, 0);
+}
+a:hover {
+  text-decoration: underline;
+}
+article a {
+  display: flex;
+
+  align-items: center;
+}
+a img {
+  width: 25px;
+  height: 56px;
+  margin: 3px 0 0 10px;
+
+  transition: all 0.5s ease;
+
+  opacity: 0.7;
+}
+a:hover img {
+  margin-left: 20px;
+
+  opacity: 1;
+}
+p {
+  width: 70%;
+
+  color: rgba(0, 0, 0, 0.5);
+
+  font-size: 19px;
+  line-height: 25px;
+}
+.content {
+  margin-top: -110px;
+  padding: 10px 30px 20px;
+
+  transition: all 0.5s ease;
+
+  background-color: rgba(255, 255, 255, 0.5);
+}
+article:hover .content {
+  margin-top: 0;
+
+  background-color: rgba(255, 255, 255, 1);
+}
+article {
+  position: relative;
+}
+.divs2 {
+  position: absolute;
+  left: -350px;
+}
+.r {
+  left: 530px;
+}
+
+.grupp {
+  display: flex;
+
+  width: 80vw;
+  margin: 0 auto;
+}
+.grupp article {
+  width: 33vw;
+}
+.grupp .photo {
+  height: 16vw;
+}
+.grupp article p {
+  width: 90%;
+}
+.photo {
+  width: 100%;
+  height: 300px;
+  /* margin: -30px 0 40px -30px; */
+  /* padding: 30px; */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.me {
+  background-image: url('materials/theater.jpg');
+}
+.b18 {
+  background-image: url('materials/grupp.png');
+  background-position-x: center;
+  background-position-y: -76px;
+  background-size: calc(100% + 80px);
+}
+.shop {
+  background-image: url('materials/prez.jpg');
+}
+.project {
+  background-image: url('materials/bot.jpg');
+  background-position: center;
+}
+.diary {
+  background-image: url('materials/dy.png');
+  background-position: center;
+  background-size: cover;
+}
+.posters {
+  background-image: url('materials/poster1.jpg');
+}
+.web {
+  background-image: url('materials/web.jpg');
+}
+.modeling {
+  background-image: url('materials/3d.jpg');
+}
+.book {
+  background-image: url('materials/book.jpg');
+}
+.webA {
+  background-image: url('materials/webA2.png');
+  background-position: center;
+}
