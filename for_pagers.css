@@ -1,54 +1,138 @@
 body {
-  font-family: 'PT Sans', sans-serif;
+  display: block;
 }
-header.page {
-  position: relative;
-}
+main.p {
+  display: flex;
+  flex-direction: column;
 
-main.page {
-  margin-top: 100px;
-}
-p.p {
-  width: 100%;
+  margin: 0 auto 120px;
 
-  color: rgba(0, 0, 0, 1);
+  align-items: center;
 }
-.one p + p {
-  margin-top: 60px;
-}
-.photo {
-  height: 500px;
-}
-.icons {
+.p .paragraphs {
   display: flex;
 
-  width: 45%;
-  margin-top: 60px;
+  width: 97.6%;
+  margin: 40px 0;
+  margin: 0;
+  padding-top: 100px;
+
+  background: rgba(0, 0, 0, 0);
+  box-shadow: none;
 
   justify-content: space-between;
+  align-self: flex-start;
 }
-.icons img {
-  width: 9vw;
-  height: 6vw;
+.p .paragraphs p {
+  width: 31vw;
+
+  color: black;
+}
+.p .paragraphs:nth-of-type(2n) {
+  align-self: flex-end;
+}
+.p p {
+  width: 100%;
+}
+
+.cards {
+  display: grid;
+
+  width: 95%;
+  margin-top: 100px;
+
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 20px;
+}
+.cards h2 {
+  margin: 0 auto;
+
+  grid-column: 1/7;
+}
+.pic {
+  width: 35vw;
+  height: 20vw;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.p_one {
+  background-image: url("materials/me.jpg");
+  background-position-y: -2vw;
+}
+.p_two {
+  background-image: url("materials/my_photo_2.jpg");
+  background-position-y: -2vw;
+}
+.fin {
+  width: 47vw;
+  margin: 80px auto 0;
+}
+.fin p {
+  width: 100%;
+
+  color: black;
+
+  font-size: 27px;
+  line-height: 36px;
+}
+
+.card {
+  margin: 80px auto 0;
+
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.card p {
+  width: 85%;
+  margin-top: 10px;
+  padding: 30px 19px 30px;
+
+  color: rgba(0, 0, 0, 0.5);
+
+  font-size: 16px;
+  line-height: 25px;
 }
 .one {
-  grid-column: 1;
+  grid-column: 1/3;
 }
-.hall {
-  width: 28.4vw;
-  /* padding-left: 10vw; */
-
-  background-image: url("materials/my_photo.jpg");
-  background-position-y: -3vw;
-
-  grid-column: 2/4;
+.one .photo {
+  background-image: url("materials/theater.jpg");
+  background-position: center;
+}
+.two .photo {
+  background-image: url("materials/army.jpg");
+  background-position: center;
+}
+.three .photo {
+  background-image: url("materials/fire_2.jpg");
+  background-position: center;
+  background-position-x: -14vw;
+  background-position-y: -1vw;
+  background-size: 45vw;
 }
 .two {
-  /* grid-column: 3; */
+  grid-column: 3/5;
 }
 .three {
-
+  grid-column: 5/7;
 }
-.four {
+.some .photo {
+  height: 190px
+}
+.some a {
+  display: flex;
 
+  width: 35%;
+
+  align-items: center;
+}
+.b18.in {
+  grid-column: 1/4;
+}
+.shop.in {
+  grid-column: 4/7;
+}
+.b18.in .photo {
+  background-position-y: -3vw;
 }

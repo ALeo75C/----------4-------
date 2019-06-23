@@ -2,6 +2,8 @@
 @import "main.css";
 @import "for_pagers.css";
 @import "footer.css";
+@import "nav.css";
+@import "media.css";
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic');
 
 body {
