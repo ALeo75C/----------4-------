@@ -1,0 +1,355 @@
+body {
+  display: block;
+}
+main.p {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto 120px;
+
+  align-items: center;
+}
+.p .paragraphs {
+  display: flex;
+
+  width: 97.6%;
+  margin: 40px 0;
+  margin: 0;
+  padding-top: 100px;
+
+  background: rgba(0, 0, 0, 0);
+  box-shadow: none;
+
+  justify-content: space-between;
+  align-self: flex-start;
+}
+.p .paragraphs p {
+  width: 31vw;
+
+  color: black;
+}
+.p .paragraphs:nth-of-type(2n) {
+  align-self: flex-end;
+}
+.p p {
+  width: 100%;
+}
+
+.cards {
+  display: grid;
+
+  width: 100%;
+  margin-top: 100px;
+
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 20px;
+}
+.cards h2 {
+  margin: 0 auto;
+
+  grid-column: 1/7;
+}
+.pic {
+  width: 35vw;
+  height: 20vw;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.p_one {
+  background-image: url("../materials/me.jpg");
+  background-position-y: -2vw;
+}
+.p_two {
+  background-image: url("../materials/my_photo_2.jpg");
+  background-position-y: -2vw;
+}
+.fin {
+  width: 47vw;
+  margin: 80px auto 60px;
+}
+.fin p {
+  width: 100%;
+
+  color: black;
+
+  font-size: 16px;
+  line-height: 28px;
+
+}
+
+.card {
+  margin: 80px auto 0;
+
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.card p {
+  width: 85%;
+  margin-top: 10px;
+  padding: 30px 19px 30px;
+
+  color: rgba(0, 0, 0, 0.5);
+
+  font-size: 16px;
+  line-height: 25px;
+}
+.one {
+  grid-column: 1/3;
+}
+.one .photo {
+  background-image: url("../materials/theater.jpg");
+  background-position: center;
+}
+.two .photo {
+  background-image: url("../materials/army.jpg");
+  background-position: center;
+}
+.three .photo {
+  background-image: url("../materials/fire_2.jpg");
+  background-position: center;
+  background-position-x: -14vw;
+  background-position-y: -1vw;
+  background-size: 45vw;
+}
+.two {
+  grid-column: 3/5;
+}
+.three {
+  grid-column: 5/7;
+}
+.some .photo {
+  height: 190px
+}
+.some a {
+  display: flex;
+
+  width: 35%;
+
+  align-items: center;
+}
+.dubki {
+  height: 40vw;
+
+  background-image: url("../materials/dubki.jpg");
+  background-position: right;
+}
+.in:first-of-type {
+  grid-column: 1/4;
+}
+.in:last-of-type {
+  grid-column: 4/7;
+}
+.b18.in .photo {
+  background-position-y: -3vw;
+}
+.start_b18 {
+  height: 50vw;
+
+  background-image: url("../materials/hads.jpg");
+  background-position: right;
+}
+.end_b18 {
+  height: 50vw;
+
+  background-image: url("../materials/dorm_2.PNG");
+}
+
+
+.hseCard, .dorm {
+  grid-column: 1/3;
+}
+.hseDay, .bhd {
+  grid-column: 3/5;
+}
+.transpostCard, .help {
+  grid-column: 5/7;
+}
+.hseCard .photo {
+  background-image: url("../materials/hseCard.jpg");
+}
+.dorm .photo {
+  background-image: url("../materials/dorm.jpg");
+}
+.transpostCard .photo {
+  background-image: url("../materials/transportCard.jpg");
+}
+.hseDay .photo {
+  background-image: url("../materials/hseDay.jpg");
+}
+.bhd .photo {
+  background-image: url("../materials/bhd.jpg");
+}
+.help .photo {
+  background-image: url("../materials/help.jpg");
+}
+
+
+.vue {
+  grid-column: 1/3;
+}
+.vue .photo {
+  background-image: url("../materials/vue.jpg");
+}
+.ideas {
+  grid-column: 3/5;
+}
+.ideas .photo {
+  background-image: url("../materials/ideas.jpg");
+
+}
+.emothion {
+  grid-column: 5/7;
+}
+.emothion .photo {
+  background-image: url("../materials/emotion.jpg");
+}
+.wheatherShop {
+  height: 60vw;
+
+  background-image: url(../materials/prez.jpg);
+}
+.lucyanenko {
+  width: 35vw;
+  height: 49vw;
+
+  background-image: url("../materials/lucyanenko.jpg");
+  background-size: contain;
+}
+.flag p {
+  margin-top: -0.1vw;
+  padding-bottom: 40px;
+
+  color: black;
+}
+.flag5, .flag3 {
+  grid-column: 1/3
+}
+.flag p, .flag4 {
+  grid-column: 3/5
+}
+.flag2, .flag1 {
+  grid-column: 5/7
+}
+.flag div {
+  height: 30vw;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.flag1 {
+  background-image: url("../materials/mfs/flag_1.png");
+}
+.flag2 {
+  background-image: url("../materials/mfs/flag_2.png");
+}
+.flag3 {
+  background-image: url("../materials/mfs/flag_3.png");
+}
+.flag4 {
+  background-image: url("../materials/mfs/flag_4.png");
+}
+.flag5 {
+  background-image: url("../materials/mfs/flag_5.png");
+}
+.mood {
+  height: 35vw;
+
+  background-image: url(../materials/mfs/mood.jpg);
+  background-position: right;
+}
+.video {
+  width: 80vw;
+  height: 50vw;
+}
+.max {
+  grid-column: 1/3;
+}
+.max .photo {
+  background-image: url("../materials/max.jpg");
+}
+.wheather {
+  grid-column: 3/5;
+}
+.wheather .photo {
+  background-image: url("../materials/3d2.jpg");
+}
+.cinema {
+  grid-column: 5/7;
+}
+.cinema .photo {
+  background-image: url("../materials/cinema.jpg");
+}
+.d3 {
+  height: 35vw;
+
+  background-image: url("../materials/3d.jpg");
+}
+
+.posters *, .posters p {
+  margin-top: 40px;
+}
+.posters p {
+  margin-top: 4vw;
+  padding-bottom: 40px;
+
+  color: black;
+}
+.posters div {
+  height: 40vw;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.posterT1 {
+  background-image: url("../materials/posters/posterT1.jpg");
+}
+.posterT2 {
+  background-image: url("../materials/posters/posterT2.jpg");
+}
+.posterG1 {
+  background-image: url("../materials/posters/graph1.jpg");
+}
+.posterG2 {
+  background-image: url("../materials/posters/graph2.jpg");
+}
+.posterTY1 {
+  background-image: url("../materials/posters/posterTY1.jpg");
+}
+.posterTY2 {
+  background-image: url("../materials/posters/posterTY2.jpg");
+}
+p.grapg, .posterT1, .posterTY2 {
+  grid-column: 1/3;
+}
+.posterT2, p.typog1, .posterG1 {
+  grid-column: 3/5;
+}
+p.tipog, .posterTY1, .posterG2 {
+  grid-column: 5/7;
+}
+.firstPoster {
+  height: 50vw;
+
+  background-image: url("../materials/posters/poster.jpg");
+}
+
+.procrastin {
+  grid-column: 1/3;
+}
+.hand {
+  grid-column: 3/5;
+}
+.trash {
+  grid-column: 5/7;
+}
+.procrastin .photo {
+  background-image: url("../materials/posters/procrastin.jpg");
+}
+.hand .photo {
+  background-image: url("../materials/posters/hand.jpg");
+}
+.trash .photo {
+  background-image: url("../materials/posters/trash.jpg");
+}

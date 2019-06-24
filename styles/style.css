@@ -1,0 +1,29 @@
+@import "reset.css";
+@import "main.css";
+@import "for_pagers.css";
+@import "footer.css";
+@import "nav.css";
+@import "media.css";
+@import "slider.css";
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic');
+
+body {
+  overflow-x: hidden;
+
+  width: 80vw;
+  margin: 0 auto;
+
+  transition: background 0.5s ease;
+
+  font-family: 'PT Sans', sans-serif;
+}
+@keyframes jumpUp {
+  0%   {transform: translateX(0px)translateY(0px) rotate(-30deg);}
+  50%  {transform: translateX(100px)translateY(-100px) rotate(-30deg);}
+  100% {transform: translateX(0px)translateY(0px) rotate(-30deg);}
+}
+@keyframes jumpDown {
+  0%   {transform: translateX(0px)translateY(0px) rotate(-30deg);}
+  50%  {transform: translateX(-100px)translateY(+100px) rotate(-30deg);}
+  100% {transform: translateX(0px)translateY(0px) rotate(-30deg);}
+}

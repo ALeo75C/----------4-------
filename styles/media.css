@@ -1,0 +1,160 @@
+@media (max-width: 530px) {
+  .me, .shop, .diary, .web, .book, .b18, .project, .posters, .modelling, .webA {
+    grid-column: 1/7;
+  }
+  .p .paragraphs {
+    flex-direction: column;
+  }
+  .p .paragraphs p {
+    width: 100%;
+  }
+  .p_one {
+    height: 50vw;
+  }
+  .pic {
+    width: 80vw;
+    height: 55vw;
+    margin-top: 40px;
+  }
+  .paragraphs + .paragraphs {
+    padding-top: 0;
+  }
+  .p .paragraphs:nth-of-type(2n) {
+    align-self: flex-start;
+  }
+  .cards {
+    margin-top: 0;
+  }
+  .card {
+    grid-column: 1/7;
+  }
+  .card + .card {
+    margin-top: 55px;
+  }
+  .photo {
+    height: 200px;
+  }
+  .card p {
+    margin-top: 0;
+  }
+  .three .photo {
+    background-size: 95vw;
+  }
+  .fin {
+    width: 74vw;
+  }
+  .fin p {
+    font-size: 23px;
+    line-height: 33px;
+  }
+  .cards .in {
+    grid-column: 1/7;
+  }
+  .flag * {
+    margin-top: 40px;
+
+    grid-column: 1/7;
+  }
+  .flag p {
+    width: 72vw;
+    margin-top: 40px;
+    padding-bottom: 0;
+
+    grid-column: 1/7;
+  }
+  .posters div {
+    background-size: cover;
+
+    grid-column: 1/7;
+  }
+  .posters p {
+    grid-column: 1/7;
+  }
+  .card {
+    margin-top: 30px;
+  }
+  .cards h2 {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 530px) and (max-width: 769px) {
+  .me, .shop, .diary, .web, .book {
+    grid-column: 1/4;
+  }
+  .b18, .project, .posters, .modelling, .webA {
+    grid-column: 4/7;
+  }
+  .cards {
+    grid-column-gap: 44px;
+  }
+  .pic {
+    height: 45vw;
+  }
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+
+    width: 80vw;
+    margin-top: 50px;
+
+    grid-column: 1/7;
+    justify-content: center;
+  }
+  .card:nth-of-type(2){
+    flex-direction: row;
+  }
+  .p .li .photo {
+    width: 150vw;
+    height: 35vw;
+  }
+  .three .photo {
+    background-position-x: -19vw;
+    background-size: 57vw;
+  }
+  .fin p {
+    width: 66vw;
+    margin-left: -6vw;
+  }
+  .in .photo {
+    width: 39vw;
+    height: 25vw;
+
+    background-position-y: -4vw;
+  }
+  article a {
+    margin-top: 19px;
+
+    font-size: 20px;
+  }
+  article p {
+    width: 100%;
+
+    font-size: 16px;
+    line-height: 22px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  .flag5 {
+    margin-bottom: 40px;
+  }
+  .flag p {
+    grid-column: 3/7;
+  }
+  .flag2 {
+    grid-column: 1/5;
+  }
+  .flag3 {
+    margin-bottom: 40px;
+
+    grid-column: 5/7;
+  }
+  .flag4 {
+    grid-column: 1/3;
+  }
+  .flag1 {
+    grid-column: 3/7;
+  }
+
+}
