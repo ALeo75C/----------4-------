@@ -2,6 +2,15 @@
   .me, .shop, .diary, .web, .book, .b18, .project, .posters, .modelling, .webA {
     grid-column: 1/7;
   }
+  main .p {
+    margin: 0 auto 50px;
+  }
+  .link {
+    width: 61vw;
+    margin-top: 14vw;
+
+    font-size: 6vw;
+  }
   .p .paragraphs {
     flex-direction: column;
   }
@@ -62,12 +71,12 @@
 
     grid-column: 1/7;
   }
-  .posters div {
+  .posters div, .brand div {
     background-size: cover;
 
     grid-column: 1/7;
   }
-  .posters p {
+  .posters p, .brand p {
     grid-column: 1/7;
   }
   .card {
@@ -156,5 +165,7 @@
   .flag1 {
     grid-column: 3/7;
   }
-
+  .link {
+    margin-left: -10vw;
+  }
 }

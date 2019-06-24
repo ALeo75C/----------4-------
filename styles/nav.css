@@ -84,7 +84,7 @@ ul li ul li {
 ul li ul li:hover {
   font-weight: normal;
 }
-a:hover {
+nav a:hover {
   text-decoration: none;
 }
 

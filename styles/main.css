@@ -50,7 +50,7 @@ h2 {
   font-weight: 700;
 }
 article a {
-  display: inline-block;
+  display: flex;
 
   margin-top: 24px;
 
@@ -59,21 +59,19 @@ article a {
   color: rgba(0, 0, 0, 0.5);
 
   font-size: 22px;
-}
-a:hover {
-  text-decoration: underline;
 
+  align-items: center;
+}
+article a:hover {
+  /* text-decoration: underline; */
   color: rgba(0, 0, 0, 1)
 }
-a:visited {
+article a:visited, a:active {
   text-decoration: none;
 
   color: inherit;
 }
 article a {
-  display: flex;
-
-  align-items: center;
 }
 a span {
   margin: 3px 0 0 10px;
