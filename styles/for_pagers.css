@@ -353,3 +353,64 @@ p.tipog, .posterTY1, .posterG2 {
 .trash .photo {
   background-image: url("../materials/posters/trash.jpg");
 }
+
+header.page {
+  position: relative;
+  z-index: 1;
+
+  width: 100vw;
+  height: 60vw;
+  margin-left: -10vw;
+
+  background-position: center;
+  background-size: cover;
+}
+.black {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 60vw;
+
+  background: linear-gradient(to top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+}
+.page h1 {
+  position: absolute;
+  z-index: 1;
+  bottom: 10vw;
+  left: 10vw;
+
+  color: white;
+}
+.meH {
+  background-image: url("../materials/theater.jpg");
+}
+.b18H {
+  background-image: url("../materials/grupp.jpg");
+}
+.shopH {
+  background-image: url("../materials/prez.jpg");
+}
+.projectH {
+  background-image: url("../materials/bot.jpg");
+}
+.diaryH {
+  background-image: url("../materials/dy.png");
+}
+.postersH {
+  background-image: url("../materials/poster1.jpg");
+}
+.webH {
+  background-image: url("../materials/web.jpg");
+}
+.modellingH {
+  background-image: url("../materials/3d.jpg");
+}
+.bookH {
+  background-image: url("../materials/book.jpg");
+}
+.webAH {
+  background-image: url("../materials/webA2.png");
+}
