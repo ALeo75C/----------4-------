@@ -81,8 +81,16 @@ ul li ul li {
 
   font-weight: lighter;
 }
+ul ul li + li {
+  margin-top: 15px;
+}
 ul li ul li:hover {
   font-weight: normal;
+}
+nav a {
+  text-decoration: none;
+
+  color: black;
 }
 nav a:hover {
   text-decoration: none;

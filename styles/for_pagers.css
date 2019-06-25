@@ -109,13 +109,13 @@ main.p {
   background-position-y: -1vw;
   background-size: 45vw;
 }
-.one, .hseCard, .dorm, .vue, .flag5, .flag3, .max, p.grapg, .posterT1, .posterTY2, .procrastin, .media, .netArt, .greese, .clohtes {
+.one, .hseCard, .dorm, .vue, .flag5, .flag3, .max, p.grapg, .posterT1, .posterTY2, .procrastin, .media, .netArt, .greese, .clohtes, .love {
   grid-column: 1/3;
 }
-.two, .hseDay, .bhd, .ideas, .flag p, .flag4, .wheather, .posterT2, p.typog1, .posterG1, .hand, .butons, .simple, .whater, .mix {
+.two, .hseDay, .bhd, .ideas, .flag p, .flag4, .wheather, .posterT2, p.typog1, .posterG1, .hand, .butons, .simple, .whater, .mix, .music {
   grid-column: 3/5;
 }
-.three, .transpostCard, .help, .emothion, .flag2, .flag1, .cinema, p.tipog, .posterTY1, .posterG2, .trash, .styles, .scroll, .figurs, .volume {
+.three, .transpostCard, .help, .emothion, .flag2, .flag1, .cinema, p.tipog, .posterTY1, .posterG2, .trash, .styles, .scroll, .figurs, .volume, .write {
   grid-column: 5/7;
 }
 .some .photo {
@@ -363,7 +363,7 @@ header.page {
   background-image: url("../materials/demeter/poster1.png");
 }
 .portfolioH {
-  /* background-image: url("../materials/webA2.png"); */
+  background-image: url("../materials/index.jpg");
 }
 .diary1 {
   height: 40vw;
@@ -539,4 +539,19 @@ header.page {
   background-size: cover;
 
   grid-column: 5/7;
+}
+.love .photo {
+  background-image: url("../materials/code.png");
+}
+.music .photo {
+  background-image: url("../materials/music.jpg");
+}
+.write .photo {
+  background-image: url("../materials/write.jpg");
+}
+.colors {
+  background-image: url("../materials/colors.jpg");
+}
+.pageMenu {
+  background-image: url("../materials/card.png");
 }
