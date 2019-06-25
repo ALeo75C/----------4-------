@@ -304,7 +304,7 @@ header.page {
   z-index: 1;
 
   width: 100vw;
-  height: 60vw;
+  height: 30vw;
   margin-left: -10vw;
 
   background-position: center;
@@ -317,17 +317,19 @@ header.page {
   left: 0;
 
   width: 100vw;
-  height: 60vw;
+  height: 30vw;
 
-  background: linear-gradient(to top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 10%,rgba(0,0,0,0) 100%);
 }
 .page h1 {
   position: absolute;
   z-index: 1;
-  bottom: 10vw;
+  bottom: 4vw;
   left: 10vw;
 
   color: white;
+
+  font-size: 9vw;
 }
 .meH {
   background-image: url("../materials/theater.jpg");
